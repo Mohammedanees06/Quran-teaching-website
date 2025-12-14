@@ -17,7 +17,7 @@ export default function Navbar() {
           
           {/* Logo / Brand */}
           <div className="text-xl font-bold tracking-wide">
-            <span className="text-emerald-600">Al</span> Fajar Academy
+            <span className="text-emerald-600">Al</span> FajraQ Academy
           </div>
 
           {/* Desktop Nav */}
