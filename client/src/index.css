@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-800 dark:bg-zinc-950 dark:text-gray-200;
+}
