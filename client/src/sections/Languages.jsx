@@ -18,7 +18,7 @@ export default function Languages() {
           </p>
 
           <div className="grid grid-cols-2 gap-6">
-            {["Hindi","Urdu", "English", "Kannada"].map((lang) => (
+            {["Arabic","Hindi","Urdu", "English", "Kannada"].map((lang) => (
               <div
                 key={lang}
                 className="rounded-2xl border bg-white dark:bg-zinc-900 p-6 text-center font-semibold hover:shadow transition"

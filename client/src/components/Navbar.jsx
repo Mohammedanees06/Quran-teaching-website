@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export default function Navbar() {
   const [dark, setDark] = useState(false);
 
-  // Apply dark mode to <html>
+ 
   useEffect(() => {
     const root = document.documentElement;
     if (dark) root.classList.add("dark");
@@ -17,7 +17,7 @@ export default function Navbar() {
           
           {/* Logo / Brand */}
           <div className="text-xl font-bold tracking-wide">
-            <span className="text-emerald-600">Al</span> Hasnain Academy
+            <span className="text-emerald-600">Al</span> Fajar Academy
           </div>
 
           {/* Desktop Nav */}

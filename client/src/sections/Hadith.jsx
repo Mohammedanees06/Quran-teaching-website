@@ -87,7 +87,7 @@ export default function Hadith() {
             ${visible ? "opacity-100" : "opacity-0"}
           `}
         >
-          — {currentHadith.source}
+          • {currentHadith.source}
         </p>
 
       </div>

@@ -43,7 +43,7 @@ export default function Fees() {
             </ul>
           </div>
 
-          {/* STANDARD (HIGHLIGHTED) */}
+          {/* STANDARD  */}
           <div className="rounded-3xl border-2 border-emerald-600 bg-white dark:bg-zinc-900 p-8 text-center scale-[1.02]">
             <span className="inline-block mb-3 text-xs font-semibold text-emerald-700 dark:text-emerald-300">
               MOST CHOSEN

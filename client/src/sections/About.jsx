@@ -12,7 +12,7 @@ export default function About() {
           </h2>
 
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-            Al Hasnain Online Quran Academy is guided by Hafiz & Qari Mohammad
+            Al Fajar Online Quran Academy is guided by Hafiz & Qari Mohammad
             Zubair, who has over <strong>10 years of experience</strong> in
             Quran teaching. Along with other qualified instructors, the academy
             ensures disciplined, accurate, and meaningful Quran learning for

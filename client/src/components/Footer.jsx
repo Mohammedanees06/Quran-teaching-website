@@ -11,7 +11,7 @@ export default function Footer() {
           {/* BRAND */}
           <div className="md:pr-10">
             <h3 className="text-2xl md:text-3xl font-bold mb-3 tracking-tight text-gray-900 dark:text-gray-100">
-              <span className="text-emerald-600">Al</span> Hasnain Academy
+              <span className="text-emerald-600">Al</span> Fajar Academy
             </h3>
             <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300 max-w-md">
               Authentic Quran education with Tajweed, Hifz, and Islamic studies,
@@ -106,7 +106,7 @@ export default function Footer() {
 
         {/* BOTTOM */}
         <div className="mt-10 border-t border-zinc-200 dark:border-zinc-800 pt-4 text-center text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-          <p>© {year} Al Hasnain Academy. All rights reserved.</p>
+          <p>© {year} Al Fajar Academy. All rights reserved.</p>
           <p className="mt-1">
             Dedicated to nurturing Quran learners across the globe.
           </p>
