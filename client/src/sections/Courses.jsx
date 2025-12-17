@@ -4,15 +4,14 @@ export default function Courses() {
   return (
     <section id="courses" className="py-20 px-6 bg-white dark:bg-zinc-950">
       <div className="max-w-7xl mx-auto">
-
         {/* SECTION HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">
             Our Quran Courses
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Carefully designed courses to help students of all levels
-            learn Quran with proper understanding and pronunciation.
+            Carefully designed courses to help students of all levels learn
+            Quran with proper understanding and pronunciation.
           </p>
         </div>
 
@@ -21,8 +20,7 @@ export default function Courses() {
           {[
             {
               title: "Noorani Qaida",
-              desc:
-                "A beginner-friendly course to build strong basics in Arabic letters, pronunciation, and reading skills.",
+              desc: "A beginner-friendly course to build strong basics in Arabic letters, pronunciation, and reading skills.",
               points: [
                 "For beginners & kids",
                 "Step-by-step learning",
@@ -31,8 +29,7 @@ export default function Courses() {
             },
             {
               title: "Quran with Tajweed",
-              desc:
-                "Learn Quran recitation with correct Tajweed rules, makharij, and proper rhythm.",
+              desc: "Learn Quran recitation with correct Tajweed rules, makharij, and proper rhythm.",
               points: [
                 "Correct pronunciation",
                 "Tajweed rules explained",
@@ -41,8 +38,7 @@ export default function Courses() {
             },
             {
               title: "Quran Hifz",
-              desc:
-                "Structured memorization program with daily revision plans and guidance.",
+              desc: "Structured memorization program with daily revision plans and guidance.",
               points: [
                 "Daily memorization",
                 "Revision tracking",
@@ -51,8 +47,7 @@ export default function Courses() {
             },
             {
               title: "Daily Duas & Hadees",
-              desc:
-                "Learn essential daily Duas and selected Hadees with meaning and usage.",
+              desc: "Learn essential daily Duas and selected Hadees with meaning and usage.",
               points: [
                 "Daily life Duas",
                 "Authentic sources",
@@ -61,8 +56,7 @@ export default function Courses() {
             },
             {
               title: "Deeni Masail",
-              desc:
-                "Understand everyday Islamic rulings and practices explained in a simple manner.",
+              desc: "Understand everyday Islamic rulings and practices explained in a simple manner.",
               points: [
                 "Practical knowledge",
                 "Easy explanations",
@@ -71,8 +65,7 @@ export default function Courses() {
             },
             {
               title: "Islamic General Knowledge",
-              desc:
-                "Build strong Islamic awareness through stories, quizzes, and interactive learning.",
+              desc: "Build strong Islamic awareness through stories, quizzes, and interactive learning.",
               points: [
                 "For kids & adults",
                 "Interactive sessions",
@@ -108,9 +101,10 @@ export default function Courses() {
 
         {/* SPECIAL PROGRAMS */}
         <div className="mt-20 max-w-5xl mx-auto">
-          <div className="rounded-3xl border border-emerald-200 dark:border-emerald-800
-                          bg-emerald-50 dark:bg-emerald-900/30 p-10">
-
+          <div
+            className="rounded-3xl border border-emerald-200 dark:border-emerald-800
+                          bg-emerald-50 dark:bg-emerald-900/30 p-10"
+          >
             <h3 className="text-2xl font-bold mb-4 text-center text-gray-900 dark:text-gray-100">
               Special Programs
             </h3>
@@ -142,11 +136,24 @@ export default function Courses() {
                 </span>
               </li>
             </ul>
-
           </div>
         </div>
-
       </div>
+      {/* CERTIFICATE HIGHLIGHT */}
+<div className="mt-14 flex justify-center">
+  <div
+    className="flex items-center gap-3 rounded-2xl
+               border border-emerald-300 dark:border-emerald-700
+               bg-emerald-100/70 dark:bg-emerald-900/40
+               px-6 py-4 text-sm md:text-base
+               font-semibold text-emerald-800 dark:text-emerald-200
+               shadow-sm"
+  >
+    <span className="text-lg">🎓</span>
+    <span>Course completion certificates will be provided</span>
+  </div>
+</div>
+
     </section>
   );
 }
