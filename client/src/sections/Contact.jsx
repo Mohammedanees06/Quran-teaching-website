@@ -41,7 +41,7 @@ export default function Contact() {
             <div className="flex items-start gap-4">
               <MailIcon />
               <p>
-                <strong>Email:</strong>  mz665380@gmail.com
+                <strong>Email:</strong>  alfajra.onlineacademy@gmail.com
               </p>
             </div>
 
@@ -105,7 +105,7 @@ export default function Contact() {
           </ul>
 
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/919591155098"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-block w-full text-center rounded-xl

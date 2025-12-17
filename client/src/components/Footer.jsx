@@ -66,10 +66,10 @@ export default function Footer() {
                     Email:
                   </span>{" "}
                   <a
-                    href="mailto:mz665380@gmail.com"
+                    href="mailto:alfajra.onlineacademy@gmail.com"
                     className="hover:text-emerald-600 transition-colors break-all"
                   >
-                    mz665380@gmail.com
+                    alfajra.onlineacademy@gmail.com
                   </a>
                 </li>
 
